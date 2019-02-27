@@ -305,7 +305,7 @@ class CreateMtbAreasTable extends AbstractMigration
             'rank' => '47'
           ],
         ];
-        $this->insert('mtb_areas', $rows);
+        $this->table('mtb_areas')->insert($rows)->save();
       }
       /**
         * Migrate Down.
