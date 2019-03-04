@@ -1,5 +1,5 @@
 <?php
-namespace App\Model\Table;
+namespace App\Model\Entity;
 
 use App\Model\Entity\User;
 use App\Model\Entity\Product;

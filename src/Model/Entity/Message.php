@@ -2,7 +2,9 @@
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
-use App\Model\Interface\MessageInterface;
+//
+
+//use App\Model\Interface\MessageInterface;
 
 /**
  * Message Entity
